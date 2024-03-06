@@ -1,0 +1,10 @@
+package aula_LPA;
+
+public class Calcula_Media {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

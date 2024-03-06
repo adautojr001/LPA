@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula_LPA.Moeda&apos; to &apos;ConversordeMoedas&apos;&#x0D;&#x0A;- Original project: &apos;aula_LPA&apos;&#x0D;&#x0A;- Original element: &apos;aula_LPA.Moeda&apos;&#x0D;&#x0A;- Renamed element: &apos;aula_LPA.ConversordeMoedas&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Moeda&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula_LPA{Moeda.java[Moeda" matchStrategy="1" name="ConversordeMoedas" qualified="false" references="true" similarDeclarations="false" stamp="1709053870414" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+package aula_LPA;
+
+import java.util.Scanner;
+
+public class ConversordeMoedas {
+
+	public static void main(String[] args) {
+	Scanner ler= new Scanner(System.in);
+	
+	System.out.println("Digite o valor em reais:");
+	double valorReal= ler.nextDouble();
+	
+	System.out.println("Informe a cotação da moeda corrente:");
+	double valorCotacao=ler.nextDouble();
+	
+	double valorAtual= valorReal*valorCotacao;
+	
+	System.out.println("O valor da moeda referente a conversão é:\n"+valorAtual);
+
+	}
+
+}

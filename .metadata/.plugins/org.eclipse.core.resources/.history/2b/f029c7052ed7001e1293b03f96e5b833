@@ -1,0 +1,33 @@
+package aula_LPA;
+
+import java.util.Scanner;
+
+public class Calcula_Media {
+
+	public static void main(String[] args) {
+		double n1,n2,n3,n4;
+		
+		Scanner recebeNotas= new Scanner(System.in);
+		
+        System.out.println("Informe a nota do 1° bim:");
+        n1=recebeNotas.nextDouble();
+        
+        System.out.println("Informe a nota do 2° bim:");
+        n2=recebeNotas.nextDouble();
+        
+        System.out.println("Informe a nota do 3° bim:");
+        n3=recebeNotas.nextDouble();
+        
+        System.out.println("Informe a nota do 4°bim:");
+        n4=recebeNotas.nextDouble();
+        
+        double media= (n1+n2+n3+n4)/4;
+        
+        if(media>=7) {
+        	System.out.println("Aprovado;Parabéns");
+        }else
+        	System.out.println("Que pena;Reprovado");
+        
+	}
+
+}

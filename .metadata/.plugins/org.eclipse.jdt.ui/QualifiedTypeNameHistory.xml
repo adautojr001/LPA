@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="prjPontuacao.Usuario"/>
+    <fullyQualifiedTypeName name="prjPontuacao.CalculadoraBonus"/>
+    <fullyQualifiedTypeName name="prjPontuacao.RegistroPontos"/>
+    <fullyQualifiedTypeName name="Aluno"/>
+    <fullyQualifiedTypeName name="VerificaNotas"/>
+    <fullyQualifiedTypeName name="org.junit.Before"/>
+    <fullyQualifiedTypeName name="org.junit.After"/>
+    <fullyQualifiedTypeName name="AntesDepois"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

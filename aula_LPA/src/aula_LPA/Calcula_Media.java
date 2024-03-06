@@ -1,0 +1,35 @@
+package aula_LPA;
+
+import java.util.Scanner;
+
+public class Calcula_Media {
+
+	public static void main(String[] args) {
+		double n1, n2, n3, n4;
+
+		Scanner recebeNotas = new Scanner(System.in);
+
+		System.out.println("Informe a nota do 1° bimestre:");
+		n1 = recebeNotas.nextDouble();
+
+		System.out.println("Informe a nota do 2° bimestre:");
+		n2 = recebeNotas.nextDouble();
+
+		System.out.println("Informe a nota do 3° bimestre:");
+		n3 = recebeNotas.nextDouble();
+
+		System.out.println("Informe a nota do 4°bimestre:");
+		n4 = recebeNotas.nextDouble();
+
+		double media = (n1 + n2 + n3 + n4) / 4;
+
+		if (media >= 7) {
+			System.out.println(" Sua nota é: " + media + "\nAprovado;Parabéns!!!");
+		} else if (media >= 5) {
+			System.out.println(" Sua nota é: " + media + "\nPronto para a recuperação!!!");
+		} else
+			System.out.println(" Sua nota é: " + media + "\nQue pena;Reprovado");
+
+	}
+
+}

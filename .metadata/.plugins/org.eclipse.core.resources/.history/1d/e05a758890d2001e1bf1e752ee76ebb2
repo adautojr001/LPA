@@ -1,0 +1,6 @@
+
+public class Aluno {
+	double bim1, bim2, bim3,bim4;
+	
+
+}

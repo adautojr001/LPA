@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Aluno adauto= new Aluno();
+		/*adauto.bim1 =7.0;
+		adauto.bim2 =8.0;
+		adauto.bim3 =8.0;
+		adauto.bim4 =7.0;*/
+		System.out.println("Informe a nota do 1° Bimestre : ");
+		Scanner nota1 = new Scanner(System.in);
+		nota1.nextDouble();
+		
+		System.out.println("Informe a nota do 1° Bimestre : ");
+		Scanner nota2 = new Scanner(System.in);
+		nota2.nextDouble();
+		
+		System.out.println("Informe a nota do 1° Bimestre : ");
+		Scanner nota3 = new Scanner(System.in);
+		nota3.nextDouble();
+		
+		System.out.println("Informe a nota do 1° Bimestre : ");
+		Scanner nota4 = new Scanner(System.in);
+		nota4.nextDouble();
+		
+		
+		
+		
+		
+		System.out.println(adauto.media());
+		System.out.println(adauto.aprovado());
+
+	}
+
+}

@@ -1,0 +1,6 @@
+
+public class Aluno {
+	int bim1, bim2, bim3,bim4;
+	
+
+}

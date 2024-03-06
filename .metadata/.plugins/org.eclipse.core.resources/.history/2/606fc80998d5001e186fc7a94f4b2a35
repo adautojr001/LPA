@@ -1,0 +1,30 @@
+package aula_LPA;
+
+import java.util.Scanner;
+
+public class CustoCombustivel {
+
+	public static void main(String[] args) {
+		double valorLitro,kmPercorrido,mediaConsumo;
+		
+		Scanner ler= new Scanner(System.in);
+		
+		System.out.println("Informe a distancia do percurso:");
+		kmPercorrido=ler.nextDouble();
+		
+		System.out.println("Informe a média de consumo por litro:");
+		mediaConsumo=ler.nextDouble();
+		
+		System.out.println("Valor por litro:");
+		valorLitro=ler.nextDouble();
+		
+		double autonomia=kmPercorrido/mediaConsumo;
+		
+		double custoTotal= autonomia*valorLitro;
+		
+		System.out.println("Quantidade de litros gastos na viagem:\n"+autonomia+" Ltrs");
+		System.out.println("O custo total de combustível da viagem:\nR$"+custoTotal );
+
+	}
+
+}

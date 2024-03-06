@@ -1,0 +1,14 @@
+package prjPontuacao;
+
+public class RegistroPontos {
+	
+	public void fazerUmComentário() {
+		u.pontos+=5;
+	}
+	public void criarUmTopico() {
+		u.pontos+=3;
+	}
+	public void darUmLike() {
+		u.pontos+=1;
+	}
+}
